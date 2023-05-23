@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Barlow', sans-serif;
+    }
+    h2, h3 {
+        font-family: 'Fraunces', serif;
+    }
+    p {
+        @apply 
+            text-lg
+    }
+}
